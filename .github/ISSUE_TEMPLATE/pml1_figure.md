@@ -2,6 +2,8 @@
 name: PML1 figure code
 about: Use this template to specify a figure a code example is needed for
 title: [language] code for PML1 figure [figure-number]
+labels: ''
+assignees: ''
 ---
 
 <!--
