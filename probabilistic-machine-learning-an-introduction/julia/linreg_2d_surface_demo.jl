@@ -14,7 +14,6 @@ end
 
 # ╔═╡ b0c55ed6-2603-11ed-2883-d303f1fd983f
 function getData(url)
-	# url = "https://raw.githubusercontent.com/probml/probml-data/main/data/moteData/moteData.mat";
 	tmp_file = "data_mat"
 	Downloads.download(url, tmp_file)
 	data = MAT.matread(tmp_file)
